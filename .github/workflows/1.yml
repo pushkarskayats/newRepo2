@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: my-step2
+        run: ls -la .
+
